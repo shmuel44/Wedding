@@ -1,5 +1,4 @@
 let weddingTime = "December 12, 2022 0:00:00";
-
 var countDownDate = new Date(weddingTime).getTime();
 
 // Update the count down every 1 second
@@ -18,12 +17,12 @@ var x = setInterval(function () {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("counter").innerHTML = days + "d " + hours + "h "
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
         + minutes + "m " + seconds + "s ";
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("counter").innerHTML = "הגיע זמן החתונה";
+        document.getElementById("demo").innerHTML = "EXPIRED";
     }
 }, 1000);

@@ -18,12 +18,12 @@ body {
     text-shadow: 1px 1px 3px #fff;
 }
 
-#counter-title {
+#counter {
     margin-top: 2%;
     font-size: 30px;
 }
 
-#counter {
+#demo {
     font-size: 30px;
     margin: 4px;
 }
