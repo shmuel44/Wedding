@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Rashi+Hebrew:wght@300&display=swap');
+
+body {
+    font-family: 'Noto Rashi Hebrew', serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+
+    color: #c9b375;
+    text-align: center;
+
+}
+
+#title {
+    margin-top: 10%;
+    font-size: 26px;
+    text-shadow: 1px 1px 3px #fff;
+}
+
+#counter {
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+#demo {
+    font-size: 30px;
+    margin: 4px;
+}
+
+#Details {
+    margin-top: 40px;
+}
