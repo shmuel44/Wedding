@@ -31,3 +31,27 @@ body {
 #Details {
     margin-top: 40px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  
+    #title {
+        margin-top: 20%;
+        font-size: 40px;
+        text-shadow: 1px 1px 3px #fff;
+    }
+
+    #counter-title {
+        margin-top: 10%;
+        font-size: 40px;
+    }
+
+    #counter {
+        font-size: 40px;
+        margin: 4px;
+    }
+
+    #Details {
+        margin-top: 80px;
+    }
+}
