@@ -1,4 +1,4 @@
-let weddingTime = "December 12, 2022 0:00:00";
+var weddingTime = "December 12, 2022 0:00:00";
 var countDownDate = new Date(weddingTime).getTime();
 
 // Update the count down every 1 second
